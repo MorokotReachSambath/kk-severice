@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kk Service</title>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5473fa;
+    color: #fff;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area img {
+    height: 150px; /* Adjust as needed */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 7.5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between the image and text */
+}
+
+.left-image img {
+    max-width: 400px; /* Adjust as needed */
+    padding-right: 20px;
+    height: auto;
+    display: block;
+}
+
+.text-content {
+    flex: 1;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 180px;
+    background-color: #333;
+}
+h2 {
+    color:#fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5473fa;
+    color: #fff;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area img {
+    height: 150px; /* Adjust as needed */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-image img {
+    width: 85%;
+    margin-left: 7.5%;
+    height: auto;
+    display: block;
+}
+
+button{
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+section {
+    padding: 40px;
+    max-width: 1200px;
+    margin-left: 100px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between the image and text */
+}
+
+.left-image img {
+    max-width: 500px; /* Adjust as needed */
+    padding-right: 100px;
+    margin-left: 0;
+    height: auto;
+    display: block;
+}
+
+.text-content {
+    flex: 1;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    background-color: #333;
+}
+h2 {
+    color:#fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5473fa;
+    color: #fff;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area img {
+    height: 150px; /* Adjust as needed */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+input {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+}
+
+.forgot-password {
+    text-align: right;
+    margin: 10px 0 20px;
+}
+
+.forgot-password a {
+    color: #777;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-btn:hover {
+    background: #45a049;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5473fa;
+    color: #fff;
+    padding: 0px 8%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area img {
+    height: 150px; /* Adjust as needed */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.ser {
+display: flex;
+gap: 10px;
+}
+.service {
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-left: 2px solid #333;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.service h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.service p {
+    color: #555;
+}
+
+.service a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    background-color:#333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 130px;
+}
+h2 {
+    color:#fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5473fa;
+    color: #fff;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area img {
+    height: 150px; /* Adjust as needed */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+}
+.text-content {
+    max-width: 1000px;
+    padding-right: 100px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+.image-area img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+footer {
+    background-color:#333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 90px;
+}
+h2 {
+    color:#fff;
+}
+</style>
+<body>
+     <header>
+        <div class="logo-area">
+            <img src="image/photo_2025-08-11_15-56-24.jpg" alt="KK Service Logo" >
+        </div>
+        <nav>
+            <ul>
+                <li><a href="KK Service.Html" target="_blank">Home</a></li>
+                <li><a href="about us.html" target="_blank">About Us</a></li>
+                <li><a href="service.html" target="_blank">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+     </header>
+    <section id="about">
+        <div class="content-container">
+            <div class="left-image">
+                <img src="image/photo_2025-08-11_15-56-24 (2).jpg" alt="Left Image">
+            </div>
+            <div class="text-content">
+                <h1>YOUR PARTNER</h1>
+                <h2>We offer Your Accounting Solutions</h2>
+                <p>We are pleased to offer our professional accounting services to help streamline your financial operations and ensure compliance with financial regulations. With our expertise, you can focus on growing your business while we handle your accounting needs with precision and efficiency.</p>
+            </div>
+        </div>
+    </section>
+     <section id="about">
+        <div class="about-content">
+            <div class="text-content">
+                <h1>About Us</h1>
+                <div class="company-overview">
+                    <h2>Company Overview</h2>
+                    <p>KK Accounting Services is a trusted provider of professional accounting and financial solutions, dedicated to helping businesses manage their finances efficiently. With a team of experienced accountants and financial experts, we ensure accuracy, compliance, and efficiency in all aspects of accounting, bookkeeping, and financial management.</p>
+                </div>
+                <div class="vision-mission">
+                    <h2>Our Vision & Mission</h2>
+                    <h3>Vision:</h3>
+                    <p>To be the leading accounting service provider, empowering businesses with financial clarity and strategic insights.</p>
+                    <h3>Mission:</h3>
+                    <ul>
+                        <li>To deliver accurate and reliable accounting solutions tailored to each client’s needs.</li>
+                        <li>To help businesses maintain financial stability and regulatory compliance.</li>
+                        <li>To enhance financial decision-making through expert analysis and advisory services.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image-area">
+                <img src="image/photo_2025-08-11_15-56-24 (3).jpg" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <h1>Our Services</h1>
+        <div class="ser">
+        <div class="service">
+            
+            <h2>Bookkeeping & Financial Records Management</h2>
+            <p>Transaction recording, bank reconciliation, and financial reporting, ensuring smooth business operations.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="service">
+            
+            <h2>Tax Preparation & Compliance</h2>
+            <p>Handle tax filing, VAT registration, and compliance with local tax regulations, helping businesses avoid penalties and maximize tax efficiency.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="service">
+            
+            <h2>Payroll Processing & Management</h2>
+            <p>Process employee salaries, deductions, and benefits while ensuring compliance with tax laws and generating payslips for seamless payroll operations.</p>
+            <a href="#">Read More</a>
+        </div>
+        </div>
+    </section>
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <div id="email-error" class="error">Please enter a valid email</div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <span class="toggle-password" id="togglePassword">👁️</span>
+                </div>
+                <div id="password-error" class="error">Password must be at least 8 characters</div>
+            </div>
+
+            <div class="forgot-password">
+                <a href="/forgot-password">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <div class="signup-link">
+                Don't have an account? <a href="/signup">Sign Up</a>
+            </div>
+        </form>
+    </div>
+    <script>
+        // Toggle Password Visibility
+        const togglePassword = document.getElementById('togglePassword');
+        const password = document.getElementById('password');
+
+        togglePassword.addEventListener('click', () => {
+            if (password.type === 'password') {
+                password.type = 'text';
+                togglePassword.textContent = '🙈';
+            } else {
+                password.type = 'password';
+                togglePassword.textContent = '👁️';
+            }
+        });
+
+        // Form Validation
+        document.getElementById('loginForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const emailError = document.getElementById('email-error');
+            const passwordError = document.getElementById('password-error');
+
+            // Reset errors
+            emailError.style.display = 'none';
+            passwordError.style.display = 'none';
+
+            // Validate Email
+            if (!email.includes('@') || !email.includes('.')) {
+                emailError.style.display = 'block';
+                return;
+            }
+
+            // Validate Password
+            if (password.length < 8) {
+                passwordError.style.display = 'block';
+                return;
+            }
+
+            // If valid, submit (in a real app, this would send to a server)
+            alert('Login successful!');
+            // window.location.href = "/dashboard.html"; // Redirect after login
+        });
+    </script>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registerForm" action="/register" method="post">
+            <div class="form-group">
+                <label for="firstName" class="required">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName" class="required">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="required">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password" class="required">Password</label>
+                <input type="password" id="password" name="password" required minlength="8">
+                <small class="error">Password must be at least 8 characters long</small>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirmPassword" class="required">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="terms" required> I agree to the <a href="#">Terms and Conditions</a>
+                </label>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Basic form validation
+        document.getElementById('registerForm').addEventListener('submit', function(e) {
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            
+            if (password !== confirmPassword) {
+                alert('Passwords do not match!');
+                e.preventDefault();
+            }
+        });
+    </script>
+    <footer>
+    <h2>@ all copy right deserved</h2>
+    </footer>
+</body>
+</html>
